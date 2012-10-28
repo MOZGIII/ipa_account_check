@@ -1,0 +1,5 @@
+require "ipa_account_check"
+
+ARGV.each do |file|
+  IpaAccountCheck.proccess(file)
+end
